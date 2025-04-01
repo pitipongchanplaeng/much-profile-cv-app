@@ -7,11 +7,16 @@ const theme = createTheme({
   typography: {
     fontFamily: ['Boldonse'].join(','),
   },
+  palette: {
+    background: {
+      default: 'black',
+    },
+  },
 });
 
 
 createRoot(document.getElementById('root')).render(
   <ThemeProvider theme={theme}>
-    <App />
+    <App/>
   </ThemeProvider>,
 )
