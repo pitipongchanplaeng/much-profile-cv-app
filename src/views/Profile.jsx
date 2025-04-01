@@ -1,7 +1,7 @@
 import React from 'react'
 import { AppBar, Toolbar, Box, Typography, Avatar, Button, Container, TextField } from '@mui/material'
 import Me from '../assets/much.jpg'
-import Program from '../assets/Program.jpg'
+import Program from '../assets/program.jpg'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import XIcon from '@mui/icons-material/X';
 import InstagramIcon from '@mui/icons-material/Instagram';
